@@ -1,17 +1,13 @@
-# flutter_app2
+# App de lugares con Flutter
 
-A new Flutter project.
+Esta es una aplicación que nos presenta una guía visual de diversos lugares turísticos de Ecuador
 
-## Getting Started
+## Características
 
-This project is a starting point for a Flutter application.
+- **Catálogo de Lugares:** Muestra una lista de sitios turísticos con imágenes, títulos y descripciones detalladas.
+- **Interactividad:** Permite a los usuarios marcar sus lugares favoritos.
+- **Integración con Mapas:** Cada sección cuenta con un botón de navegación.
 
-A few resources to get you started if this is your first Flutter project:
+## Funcionalidad de Ruta
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Una de las funciones principales es el botón **ROUTE**. Al presionar este botón en cualquiera de las secciones, la aplicación abrirá automáticamente la aplicación de **Google Maps** (o el navegador) con una búsqueda preconfigurada del lugar seleccionado, permitiendo al usuario obtener indicaciones precisas de cómo llegar.
